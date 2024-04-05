@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RadialMenu.MainPage"
+             xmlns:syncfusion ="clr-namespace:Syncfusion.Maui.RadialMenu;assembly=Syncfusion.Maui.RadialMenu">
+ 
+    
+    <ContentPage.Content>
+        <syncfusion:SfRadialMenu 
+                    CenterButtonBackFontFamily="MauiMaterialAssets"
+                    CenterButtonBackFontSize="28"
+                    CenterButtonBackText="&#xe72d;"
+                    CenterButtonFontFamily="MauiMaterialAssets"
+                    CenterButtonFontSize="28"
+                    CenterButtonText="&#xe710;">
+            <syncfusion:SfRadialMenu.Items>
+                <syncfusion:SfRadialMenuItem FontFamily="MauiMaterialAssets"
+                            FontSize="20"
+                            Text="&#xe72e;"/>
+                <syncfusion:SfRadialMenuItem  FontFamily="MauiMaterialAssets"
+                            FontSize="20"
+                            Text="&#xe744;"/>
+                <syncfusion:SfRadialMenuItem FontFamily="MauiMaterialAssets"
+                            FontSize="20"
+                            Text="&#xe745;"/>
+                <syncfusion:SfRadialMenuItem FontFamily="MauiMaterialAssets"
+                            FontSize="20"
+                            Text="&#xe73b;"/>
+                <syncfusion:SfRadialMenuItem FontFamily="MauiMaterialAssets"
+                            FontSize="20"
+                            Text="&#xe762;"/>
+            </syncfusion:SfRadialMenu.Items>
+        </syncfusion:SfRadialMenu>
+    </ContentPage.Content>     
+</ContentPage>
